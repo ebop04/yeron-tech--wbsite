@@ -168,3 +168,42 @@ nav ul{
     margin-bottom:40px;
     color:#0d6efd;
 }
+#team{
+    text-align:center;
+    padding:80px 10%;
+}
+
+.team-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.team-card{
+    width:280px;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.team-card:hover{
+    transform:translateY(-10px);
+}
+
+.team-card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.team-card h3{
+    margin-top:15px;
+}
+
+.team-card p{
+    color:#666;
+    margin-bottom:20px;
+}
