@@ -79,10 +79,15 @@ section{
 
 .card{
     background:white;
-    padding:25px;
+    padding:30px;
     margin:20px 0;
-    border-radius:12px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:scale(1.03);
 }
 
 footer{
@@ -112,4 +117,45 @@ nav ul{
     font-size:18px;
 }
 
+}
+.stats-container{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    gap:20px;
+    margin-top:30px;
+}
+
+.stat{
+    background:#0d6efd;
+    color:white;
+    padding:30px;
+    border-radius:15px;
+    width:220px;
+    text-align:center;
+    transition:.3s;
+}
+
+.stat:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 20px rgba(0,0,0,.2);
+}
+
+.stat h1{
+    font-size:40px;
+    }
+.cta{
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+.cta h2{
+    color:white;
+    margin-bottom:20px;
+}
+
+.cta p{
+    margin-bottom:25px;
 }
